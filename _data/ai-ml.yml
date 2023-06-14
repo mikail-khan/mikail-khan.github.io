@@ -1,0 +1,16 @@
+- concept:   ML as a Service
+  aws:       Amazon SageMaker
+  aws-url:   https://aws.amazon.com/sagemaker
+  azure:     Azure Machine Learning
+  azure-url: https://learn.microsoft.com/en-us/azure/machine-learning/overview-what-is-azure-machine-learning?view=azureml-api-2
+  gcp:       Vertex AI
+  gcp-url:   https://cloud.google.com/vertex-ai
+
+ml-as-a-service:
+  aws:       Amazon SageMaker
+  aws-url:   https://aws.amazon.com/sagemaker
+  azure:     Azure Machine Learning
+  azure-url: https://learn.microsoft.com/en-us/azure/machine-learning/overview-what-is-azure-machine-learning?view=azureml-api-2
+  gcp:       Vertex AI
+  gcp-url:   https://cloud.google.com/vertex-ai
+  
