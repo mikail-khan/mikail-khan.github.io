@@ -19,3 +19,7 @@ google_analytics_id: #UA-XXXX-Y
 
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
