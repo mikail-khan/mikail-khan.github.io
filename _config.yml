@@ -1,15 +1,12 @@
 # Setup
 title:               Cloud Equivalence
-#tagline:             'Cloud Comparison Tool'
 description:         'A comparision tool for cloud practicioners.'
-url:                 https://cloud-eq.io
-baseurl:             ''
 paginate:            5
 permalink:           pretty
 
 # GitHub
-domain:              mikail-khan.github.io           # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url:                 https://mikail-khan.github.io   # the base hostname and protocol for your site, e.g. http://example.com
+domain:              mikail-khan.github.io
+url:                 https://mikail-khan.github.io
 
 # About/contact
 author:
@@ -27,4 +24,3 @@ plugins:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-seo-tag
-  - github-pages
