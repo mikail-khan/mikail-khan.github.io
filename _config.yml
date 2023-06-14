@@ -14,10 +14,6 @@ author:
   url:               https://github.com/mikail-khan/mikail-khan.github.io
   email:             mikail.dev.io@gmail.com
 
-# Custom vars
-version:             0.1
-google_analytics_id: #UA-XXXX-Y
-
 plugins:
   - jekyll-feed
   - jekyll-sitemap
