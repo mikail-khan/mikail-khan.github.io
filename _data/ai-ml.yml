@@ -6,3 +6,84 @@
       azure-url: https://learn.microsoft.com/en-us/azure/machine-learning/overview-what-is-azure-machine-learning?view=azureml-api-2
       gcp:       Vertex AI
       gcp-url:   https://cloud.google.com/vertex-ai
+
+- concept:       Jupyter IDEs
+  services:
+    - aws:       Jupyter on AWS
+      aws-url:   https://aws.amazon.com/jupyter/
+      azure:     Azure Machine Learning Studio
+      azure-url: https://learn.microsoft.com/en-gb/azure/machine-learning/how-to-run-jupyter-notebooks?view=azureml-api-2
+      gcp:       Vertex AI Workbench
+      gcp-url:   https://cloud.google.com/vertex-ai-workbench
+
+- concept:       ML Model Analysis
+  services:
+    - aws:       
+      aws-url:   
+      azure:     
+      azure-url: 
+      gcp:       Vertex Explainable AI
+      gcp-url:   https://cloud.google.com/explainable-ai
+
+- concept:       'AI for Developers: Predefined AI Services for Application Integration'
+  services:
+    - aws:       
+      aws-url:   
+      azure:     
+      azure-url: 
+      gcp:       AutoML
+      gcp-url:   https://cloud.google.com/automl
+    - aws:       Amazon Lex
+      aws-url:   https://docs.aws.amazon.com/lex/?icmpid=docs_homepage_ml
+      azure:     Conversation Language Understanding
+      azure-url: https://azure.microsoft.com/en-gb/products/cognitive-services/conversational-language-understanding/
+      gcp:       DialogFlow
+      gcp-url:   https://cloud.google.com/dialogflow
+    - aws:       
+      aws-url:   
+      azure:     
+      azure-url: 
+      gcp:       Media Translation
+      gcp-url:   https://cloud.google.com/media-translation
+    - aws:       
+      aws-url:   
+      azure:     
+      azure-url: 
+      gcp:       Natural Language AI
+      gcp-url:   https://cloud.google.com/natural-language
+    - aws:       Amazon Personalise       
+      aws-url:   https://docs.aws.amazon.com/personalize/?icmpid=docs_homepage_ml
+      azure:     Azure Personalizer
+      azure-url: https://azure.microsoft.com/en-gb/products/cognitive-services/personalizer/
+      gcp:       Recommendations AI
+      gcp-url:   https://cloud.google.com/recommendations
+    - aws:       Amazon Transcribe
+      aws-url:   https://docs.aws.amazon.com/transcribe/latest/dg/what-is.html
+      azure:     Azure Speech to Text
+      azure-url: https://azure.microsoft.com/en-gb/products/cognitive-services/speech-to-text/
+      gcp:       Speech-to-Text
+      gcp-url:   https://cloud.google.com/speech-to-text
+    - aws:       Amazon Polly
+      aws-url:   https://docs.aws.amazon.com/polly/?icmpid=docs_homepage_ml
+      azure:     Azure Text to Speech
+      azure-url: https://azure.microsoft.com/en-gb/products/cognitive-services/text-to-speech/
+      gcp:       Text-to-Speech
+      gcp-url:   https://cloud.google.com/speech-to-text
+    - aws:       Amazon Translate
+      aws-url:   https://docs.aws.amazon.com/translate/?icmpid=docs_homepage_ml
+      azure:     Speech Translation
+      azure-url: https://azure.microsoft.com/en-gb/products/cognitive-services/speech-translation/
+      gcp:       Translation AI
+      gcp-url:   https://cloud.google.com/translate
+    - aws:       Amazon Rekognition
+      aws-url:   https://docs.aws.amazon.com/rekognition/?icmpid=docs_homepage_ml
+      azure:     
+      azure-url: 
+      gcp:       Video AI
+      gcp-url:   https://cloud.google.com/video-intelligence
+    - aws:       
+      aws-url:   
+      azure:     Custom Vision Service
+      azure-url: https://azure.microsoft.com/en-gb/products/cognitive-services/custom-vision-service
+      gcp:       Vision AI
+      gcp-url:   https://cloud.google.com/vision
