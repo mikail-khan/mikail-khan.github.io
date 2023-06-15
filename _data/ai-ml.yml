@@ -87,3 +87,69 @@
       azure-url: https://azure.microsoft.com/en-gb/products/cognitive-services/custom-vision-service
       gcp:       Vision AI
       gcp-url:   https://cloud.google.com/vision
+
+- concept:       AI Infrastructure
+  services:
+    - aws:       AWS GPUs
+      aws-url:   https://docs.aws.amazon.com/dlami/latest/devguide/gpu.html
+      azure:     Azure GPU
+      azure-url: https://learn.microsoft.com/en-us/azure/virtual-machines/sizes-gpu
+      gcp:       Cloud Graphics Processing Units (GPUs)
+      gcp-url:   https://cloud.google.com/gpu
+    - aws:       AWS Trainium
+      aws-url:   https://aws.amazon.com/machine-learning/trainium/
+      azure:     Microsoft FPGA
+      azure-url: https://learn.microsoft.com/en-us/azure/virtual-machines/sizes-field-programmable-gate-arrays
+      gcp:       Cloud Tensor Processing Units (TPUs)
+      gcp-url:   https://cloud.google.com/tpu
+    - aws:       AWS Deep Learning AMI
+      aws-url:   https://aws.amazon.com/machine-learning/amis/
+      azure:     Data Science Virtual Machines
+      azure-url: https://azure.microsoft.com/en-gb/products/virtual-machines/data-science-virtual-machines
+      gcp:       Deep Learning VM Image
+      gcp-url:   https://cloud.google.com/deep-learning-vm
+    - aws:       
+      aws-url:   
+      azure:     
+      azure-url: 
+      gcp:       Deep Learning Containers
+      gcp-url:   https://cloud.google.com/deep-learning-containers
+    - aws:       TensorFlow on AWS
+      aws-url:   https://aws.amazon.com/tensorflow/
+      azure:     
+      azure-url: 
+      gcp:       TensorFlow Enterprise
+      gcp-url:   https://cloud.google.com/tensorflow-enterprise
+
+- concept:       Managed AI Solutions
+  services:
+    - aws:       Contact Center Intelligence
+      aws-url:   https://aws.amazon.com/machine-learning/ml-use-cases/contact-center-intelligence/
+      azure:     
+      azure-url: 
+      gcp:       Contact Center AI
+      gcp-url:   https://cloud.google.com/solutions/contact-center
+    - aws:       
+      aws-url:   
+      azure:     
+      azure-url: 
+      gcp:       Contact Center AI Platform (CCaS)
+      gcp-url:   https://cloud.google.com/solutions/contact-center-ai-platform
+    - aws:       Via Partner Solutions
+      aws-url:   
+      azure:     Azure Form Recognizer
+      azure-url: https://azure.microsoft.com/en-gb/products/form-recognizer
+      gcp:       Document AI
+      gcp-url:   https://cloud.google.com/document-ai
+    - aws:       
+      aws-url:   
+      azure:     
+      azure-url: 
+      gcp:       Intelligent Products
+      gcp-url:   https://cloud.google.com/solutions/intelligent-products
+    - aws:       
+      aws-url:   
+      azure:     
+      azure-url: 
+      gcp:       Discovery AI for Retail
+      gcp-url:   https://cloud.google.com/solutions/retail-product-discovery
