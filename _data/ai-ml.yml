@@ -1,12 +1,3 @@
-- concept:       Generative AI
-  services:
-    - aws:       
-      aws-url:   
-      azure:     Azure OpenService AI
-      azure-url: https://azure.microsoft.com/en-gb/products/cognitive-services/openai-service/
-      gcp:       
-      gcp-url:   
-
 - concept:       ML as a Service
   services:
     - aws:       Amazon SageMaker
