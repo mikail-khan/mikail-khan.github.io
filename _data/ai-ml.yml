@@ -7,15 +7,6 @@
       gcp:       Vertex AI
       gcp-url:   https://cloud.google.com/vertex-ai
 
-- concept:       Jupyter IDEs
-  services:
-    - aws:       Jupyter on AWS
-      aws-url:   https://aws.amazon.com/jupyter/
-      azure:     Azure Machine Learning Studio
-      azure-url: https://learn.microsoft.com/en-gb/azure/machine-learning/how-to-run-jupyter-notebooks?view=azureml-api-2
-      gcp:       Vertex AI Workbench
-      gcp-url:   https://cloud.google.com/vertex-ai-workbench
-
 - concept:       ML Model Analysis
   services:
     - aws:       
@@ -25,16 +16,7 @@
       gcp:       Vertex Explainable AI
       gcp-url:   https://cloud.google.com/explainable-ai
 
-- concept:       Deep Learning
-  services:
-    - aws:       Amazon Forecast
-      aws-url:   https://docs.aws.amazon.com/forecast/?icmpid=docs_homepage_ml
-      azure:     
-      azure-url: 
-      gcp:       
-      gcp-url:   
-
-- concept:       ML Model Training Data
+- concept:       ML Training Data
   services:
     - aws:       Open Data on AWS
       aws-url:   https://aws.amazon.com/opendata/?wwps-cards.sort-by=item.additionalFields.sortDate&wwps-cards.sort-order=desc
@@ -43,16 +25,34 @@
       gcp:       Google Public Datasets
       gcp-url:   https://console.cloud.google.com/marketplace/browse?filter=solution-type:dataset&_ga=2.70189331.2024592462.1686735273-511713694.1686405403&pli=1
       
+- concept:       Jupyter IDEs
+  services:
+    - aws:       Jupyter on AWS
+      aws-url:   https://aws.amazon.com/jupyter/
+      azure:     Azure Machine Learning Studio
+      azure-url: https://learn.microsoft.com/en-gb/azure/machine-learning/how-to-run-jupyter-notebooks?view=azureml-api-2
+      gcp:       Vertex AI Workbench
+      gcp-url:   https://cloud.google.com/vertex-ai-workbench
+
+- concept:       Timeseries Forecasting
+  services:
+    - aws:       Amazon Forecast
+      aws-url:   https://docs.aws.amazon.com/forecast/?icmpid=docs_homepage_ml
+      azure:     Azure AutoML
+      azure-url: https://learn.microsoft.com/en-us/azure/machine-learning/how-to-auto-train-forecast?view=azureml-api-2
+      gcp:       BigQuery ML
+      gcp-url:   https://cloud.google.com/bigquery/docs/bqml-introduction#:~:text=BigQuery%20ML%20lets%20you%20create,the%20need%20to%20move%20data.
+      
 - concept:       AIOps
   services:
     - aws:       Amazon DevOps Guru
       aws-url:   https://docs.aws.amazon.com/devops-guru/?icmpid=docs_homepage_ml
       azure:     
       azure-url: 
-      gcp:       Vertex Explainable AI
-      gcp-url:   https://cloud.google.com/explainable-ai
+      gcp:       
+      gcp-url:   
 
-- concept:       'AI for Developers: Predefined AI Services for Application Integration'
+- concept:       "AI for Developers: SaaS & APIs"
   services:
     - aws:       Databricks on AWS
       aws-url:   https://aws.amazon.com/solutions/partners/databricks/
@@ -66,34 +66,16 @@
       azure-url: https://azure.microsoft.com/en-gb/products/search/
       gcp:       Google Cloud Search
       gcp-url:   
-    - aws:       Amazon TextTract
-      aws-url:   https://docs.aws.amazon.com/textract/?icmpid=docs_homepage_ml
-      azure:     
-      azure-url: 
-      gcp:       
-      gcp-url:   
     - aws:       Apache MXNet on AWS       
       aws-url:   https://docs.aws.amazon.com/mxnet/?icmpid=docs_homepage_ml
-      azure:     
-      azure-url: 
-      gcp:       
-      gcp-url:   
-    - aws:       Amazon CodeGuru
-      aws-url:   https://docs.aws.amazon.com/codeguru/?icmpid=docs_homepage_ml
-      azure:     
-      azure-url: 
-      gcp:       
-      gcp-url:   
-    - aws:       Amazon CodeGuru
-      aws-url:   https://docs.aws.amazon.com/codeguru/?icmpid=docs_homepage_ml
-      azure:     
-      azure-url: 
-      gcp:       
-      gcp-url:   
-    - aws:       
-      aws-url:   
-      azure:     
-      azure-url: 
+      azure:     "Azure Marketplace: AISE MxNet"
+      azure-url: https://azuremarketplace.microsoft.com/en-gb/marketplace/apps/jetware-srl.mxnet_python?tab=Overview
+      gcp:       "-"
+      gcp-url:   "-"
+    - aws:       Azure SageMaker AutoPilot
+      aws-url:   "https://aws.amazon.com/sagemaker/autopilot/?sagemaker-data-wrangler-whats-new.sort-by=item.additionalFields.postDateTime&sagemaker-data-wrangler-whats-new.sort-order=desc"
+      azure:     Azure AutoML
+      azure-url: https://azure.microsoft.com/en-gb/products/machine-learning/automatedml/?cdn=disable#overview
       gcp:       AutoML
       gcp-url:   https://cloud.google.com/automl
     - aws:       Amazon Lex
@@ -102,16 +84,16 @@
       azure-url: https://azure.microsoft.com/en-gb/products/cognitive-services/conversational-language-understanding/
       gcp:       DialogFlow
       gcp-url:   https://cloud.google.com/dialogflow
-    - aws:       
-      aws-url:   
-      azure:     
-      azure-url: 
+    - aws:       Amazon Translate
+      aws-url:   https://aws.amazon.com/translate/
+      azure:     Azure Speech Translation
+      azure-url: https://azure.microsoft.com/en-gb/products/cognitive-services/speech-translation
       gcp:       Media Translation
       gcp-url:   https://cloud.google.com/media-translation
-    - aws:       
-      aws-url:   
-      azure:     
-      azure-url: 
+    - aws:       Language Services for AI
+      aws-url:   https://aws.amazon.com/machine-learning/language/
+      azure:     Azure Text Analytics
+      azure-url: https://azure.microsoft.com/en-gb/products/cognitive-services/text-analytics
       gcp:       Natural Language AI
       gcp-url:   https://cloud.google.com/natural-language
     - aws:       Amazon Personalise       
@@ -136,6 +118,8 @@
       aws-url:   https://docs.aws.amazon.com/translate/?icmpid=docs_homepage_ml
       azure:     Speech Translation
       azure-url: https://azure.microsoft.com/en-gb/products/cognitive-services/speech-translation/
+      gcp:       Media Translation
+      gcp-url:   https://cloud.google.com/media-translation
       gcp:       Translation AI
       gcp-url:   https://cloud.google.com/translate
     - aws:       Amazon Rekognition
@@ -144,51 +128,51 @@
       azure-url: https://azure.microsoft.com/en-gb/products/video-indexer/
       gcp:       Video AI
       gcp-url:   https://cloud.google.com/video-intelligence
-    - aws:       
-      aws-url:   
+    - aws:       Amazon TextTract
+      aws-url:   https://docs.aws.amazon.com/textract/?icmpid=docs_homepage_ml
       azure:     Custom Vision Service
       azure-url: https://azure.microsoft.com/en-gb/products/cognitive-services/custom-vision-service
       gcp:       Vision AI
       gcp-url:   https://cloud.google.com/vision
+    - aws:       Via AWS Partner Network
+      aws-url:   https://aws.amazon.com/solutions/retail/immersive-retail/
+      azure:     Azure Immersive Reader
+      azure-url: https://azure.microsoft.com/en-gb/products/immersive-reader/ 
+      gcp:       Immersive Stream for XR
+      gcp-url:   https://cloud.google.com/immersive-stream/xr
+    - aws:       Amazon Connect Voice ID
+      aws-url:   https://aws.amazon.com/connect/voice-id/
+      azure:     Speaker Recognition
+      azure-url: https://azure.microsoft.com/en-gb/products/cognitive-services/speaker-recognition/
+      gcp:       Speaker ID
+      gcp-url:   https://cloud.google.com/speaker-id
+    - aws:       Language Services for AI
+      aws-url:   https://aws.amazon.com/machine-learning/language/
+      azure:     Cognitive Service for Language
+      azure-url: https://azure.microsoft.com/en-gb/products/cognitive-services/language-service/
+      gcp:       Natural Language AI
+      gcp-url:   https://cloud.google.com/natural-language
+    - aws:       Amazon Translate
+      aws-url:   https://aws.amazon.com/translate/
+      azure:     Translator
+      azure-url: https://azure.microsoft.com/en-gb/products/cognitive-services/translator/
+      gcp:       Translation AI
+      gcp-url:   https://cloud.google.com/translate
+    - aws:       AWS Textract
+      aws-url:   https://aws.amazon.com/textract/
+      azure:     Azure Cognitive Service for Vision
+      azure-url: https://azure.microsoft.com/en-gb/products/cognitive-services/vision-services/
+      gcp:       Vision AI
+      gcp-url:   https://cloud.google.com/vision
+
+- concept:       AI Devices
+  services:
     - aws:       AWS DeepLens
       aws-url:   https://docs.aws.amazon.com/deeplens/?icmpid=docs_homepage_ml
       azure:     
       azure-url: 
       gcp:       
       gcp-url:   
-    - aws:       
-      aws-url:   
-      azure:     Azure Immersive Reader
-      azure-url: https://azure.microsoft.com/en-gb/products/immersive-reader/ 
-      gcp:       
-      gcp-url:
-    - aws:       
-      aws-url:   
-      azure:     Speaker Recognition
-      azure-url: https://azure.microsoft.com/en-gb/products/cognitive-services/speaker-recognition/
-      gcp:       
-      gcp-url:   
-    - aws:       
-      aws-url:   
-      azure:     Cognitive Service for Language
-      azure-url: https://azure.microsoft.com/en-gb/products/cognitive-services/language-service/
-      gcp:       
-      gcp-url:   
-    - aws:       
-      aws-url:   
-      azure:     Translator
-      azure-url: https://azure.microsoft.com/en-gb/products/cognitive-services/translator/
-      gcp:       
-      gcp-url:   
-    - aws:       
-      aws-url:   
-      azure:     Azure Cognitive Service for Vision
-      azure-url: https://azure.microsoft.com/en-gb/products/cognitive-services/vision-services/
-      gcp:       
-      gcp-url:   
-
-- concept:       AI Devices
-  services:
     - aws:       
       aws-url:   
       azure:     Azure Kinect DK
