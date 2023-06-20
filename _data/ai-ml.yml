@@ -70,8 +70,8 @@
       aws-url:   https://docs.aws.amazon.com/mxnet/?icmpid=docs_homepage_ml
       azure:     "Azure Marketplace: AISE MxNet"
       azure-url: https://azuremarketplace.microsoft.com/en-gb/marketplace/apps/jetware-srl.mxnet_python?tab=Overview
-      gcp:       "-"
-      gcp-url:   "-"
+      gcp:       
+      gcp-url:   
     - aws:       Azure SageMaker AutoPilot
       aws-url:   "https://aws.amazon.com/sagemaker/autopilot/?sagemaker-data-wrangler-whats-new.sort-by=item.additionalFields.postDateTime&sagemaker-data-wrangler-whats-new.sort-order=desc"
       azure:     Azure AutoML
@@ -227,12 +227,6 @@
       azure-url: https://azure.microsoft.com/en-gb/products/genomics/
       gcp:       Cloud Life Sciences
       gcp-url:   https://cloud.google.com/life-sciences
-    - aws:       Amazon HealthLake
-      aws-url:   https://docs.aws.amazon.com/healthlake/?icmpid=docs_homepage_ml
-      azure:     
-      azure-url: 
-      gcp:       
-      gcp-url:   
     - aws:       
       aws-url:   
       azure:     Health Bot
