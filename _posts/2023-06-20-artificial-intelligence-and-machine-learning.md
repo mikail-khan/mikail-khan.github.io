@@ -4,7 +4,7 @@ title: Artificial Intelligence & Machine Learning
 ---
 
 AI & ML services and products across the three main cloud providers
-can essentially be grouped into three main categories:
+can essentially be grouped into four main categories:
 
 1. **Machine Learning as a Service**: unified platforms for building,
 training, and deploying AI/ML models,
