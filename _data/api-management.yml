@@ -1,4 +1,4 @@
-- concept:       Fully Managed API Management Solution
+- concept:       Fully Managed API Platform
   services:
     - aws:       Amazon API Gateway
       aws-url:   https://docs.aws.amazon.com/apigateway/?icmpid=docs_homepage_networking
@@ -7,7 +7,7 @@
       gcp:       Apigee API Management
       gcp-url:   https://cloud.google.com/apigee
 
-- concept:       Basic API Management Solution
+- concept:       Lightweight API Platform
   services:
     - aws:       
       aws-url:   
@@ -16,7 +16,7 @@
       gcp:       API Gateway
       gcp-url:   https://cloud.google.com/api-gateway
 
-- concept:       Customer Managed API Management Service
+- concept:       Customer Managed API Gateway
   services:
     - aws:       
       aws-url:   
