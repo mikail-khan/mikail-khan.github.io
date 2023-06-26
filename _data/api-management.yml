@@ -1,8 +1,26 @@
----
-layout: page
-title: API Management
----
+- concept:       Fully Managed API Management Solution
+  services:
+    - aws:       Amazon API Gateway
+      aws-url:   https://docs.aws.amazon.com/apigateway/?icmpid=docs_homepage_networking
+      azure:     API Management
+      azure-url: https://azure.microsoft.com/en-gb/products/api-management/
+      gcp:       Apigee API Management
+      gcp-url:   https://cloud.google.com/apigee
 
-| Concept | AWS | Azure | GCP |
-|-------|--------|---------|--------|
-|||||
+- concept:       Basic API Management Solution
+  services:
+    - aws:       
+      aws-url:   
+      azure:     
+      azure-url: 
+      gcp:       API Gateway
+      gcp-url:   https://cloud.google.com/api-gateway
+
+- concept:       Customer Managed API Management Service
+  services:
+    - aws:       
+      aws-url:   
+      azure:     
+      azure-url: 
+      gcp:       Cloud Endpoints
+      gcp-url:   https://cloud.google.com/endpoints
