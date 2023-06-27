@@ -18,7 +18,7 @@ Management](https://cloud.google.com/api-gateway) which is a
 lightweight alternative to a fully managed API platform making it
 ideal for entry level API architectures and strategies. In addition,
 it offers [Cloud Endpoints](https://cloud.google.com/endpoints) which
-offers a fully customisable API management solution.
+enables the customer to have complete control over API management.
 
 The API management solutions can be categorised into three groups:
 
